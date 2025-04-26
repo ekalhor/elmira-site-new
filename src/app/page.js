@@ -9,7 +9,7 @@ export default function HomePage() {
       
       {/* Headshot */}
       <Image
-        src="/media/headshot.jpg"
+        src="/public/media/headshot.jpg"
         alt="Elmira Kalhor"
         width={300}
         height={300}
