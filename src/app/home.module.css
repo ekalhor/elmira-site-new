@@ -1,27 +1,30 @@
-/* src/app/home.module.css */
 .main {
   background-color: white;
   min-height: 100vh;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 2rem;
 }
+
 .video {
   width: 200px;
   border-radius: 8px;
   margin-bottom: 1rem;
 }
+
 .headline {
   font-weight: bold;
   font-size: 2rem;
   text-align: left;
   margin-bottom: 1rem;
 }
+
 .body {
   text-align: justify;
   border-left: 2px solid #eee;
   border-right: 2px solid #eee;
   padding: 1rem;
 }
+
 .button {
   margin-top: 2rem;
   padding: 0.5rem 1rem;
