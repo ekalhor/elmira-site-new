@@ -1,1 +1,0 @@
-// Wildfire blog post placeholder
