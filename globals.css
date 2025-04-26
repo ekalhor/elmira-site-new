@@ -1,0 +1,47 @@
+/* globals.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+}
+
+main {
+  padding: 3rem 2rem;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  text-align: left;
+}
+
+p {
+  text-align: justify;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+a {
+  font-style: italic;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+figure img, figure video {
+  max-width: 30%;
+  border: 1px solid black;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  text-align: left;
+  margin-top: 0.3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
