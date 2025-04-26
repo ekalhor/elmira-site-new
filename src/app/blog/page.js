@@ -1,7 +1,7 @@
 // src/app/blog/page.js
 'use client';
 import Link from 'next/link';
-import styles from './blog.module.css';
+import styles from './home.module.css';
 
 export default function BlogPage() {
   return (
