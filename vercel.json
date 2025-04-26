@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "rewrites": [
+    { "source": "/", "destination": "/" },
+    { "source": "/blog", "destination": "/blog" },
+    { "source": "/portfolio", "destination": "/portfolio" }
+  ]
+}
