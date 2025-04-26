@@ -1,27 +1,38 @@
 'use client';
-
 import Link from 'next/link';
+import styles from '../home.module.css';
 
 export default function PortfolioPage() {
   return (
-    <div className="portfolio-container">
-      
-      {/* Video */}
-      <video autoPlay loop muted playsInline className="portfolio-video">
-        <source src="/media/rotating-wheel.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    <main className={styles.main}>
+      <video
+        src="/media/rotating-wheel.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        style={{ width: '200px', borderRadius: '8px', marginBottom: '2rem' }}
+      />
+      <h1 style={{ fontSize: '2rem', fontWeight: 'bold', textAlign: 'left' }}>
+        Portfolio – Coming Soon
+      </h1>
 
-      {/* Portfolio Message */}
-      <h1 style={{ marginTop: '2rem' }}>Portfolio is Coming Soon</h1>
-
-      {/* Home Button */}
-      <div style={{ marginTop: '1.5rem' }}>
+      <div style={{ position: 'absolute', top: '1.5rem', right: '2rem' }}>
         <Link href="/">
-          <button className="menu-button">Home</button>
+          <button
+            style={{
+              padding: '0.5rem 1rem',
+              backgroundColor: '#333',
+              color: 'white',
+              border: 'none',
+              borderRadius: '4px',
+              cursor: 'pointer',
+            }}
+          >
+            Home
+          </button>
         </Link>
       </div>
-
-    </div>
+    </main>
   );
 }
