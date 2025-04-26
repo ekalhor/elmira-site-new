@@ -9,12 +9,11 @@ export default function HomePage() {
       
       {/* Headshot */}
       <Image
-        src="/public/media/headshot.jpg"
+        src="/media/headshot.jpg"
         alt="Elmira Kalhor"
         width={300}
         height={300}
         className="profile-pic"
-        priority
       />
 
       {/* Greeting Text */}
