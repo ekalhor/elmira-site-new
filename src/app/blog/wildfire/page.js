@@ -1,12 +1,12 @@
 // src/app/blog/wildfire/page.js
 'use client';
 import Link from 'next/link';
-import styles from '../../../home.module.css';
+import '../../globals.css'; // Import your global styles
 
 export default function WildfirePost() {
   return (
-    <main className={styles.main}>
-      <div className={styles.content}>
+    <main className="main">
+      <div className="content">
         <h1>Living with Fire: Understanding Risk, Behavior, and the Changing Wildfire Landscape in California</h1>
 
         <p><strong>1. Introduction: The Beauty and the Burn</strong></p>
@@ -82,8 +82,8 @@ export default function WildfirePost() {
           not individual hope.
         </p>
 
-        <div className={styles.backButton}>
-          <Link href="/blog">← Back to Blog</Link>
+        <div className="backButton">
+          <Link href="/blog"><em>← Back to Blog</em></Link>
         </div>
       </div>
     </main>
