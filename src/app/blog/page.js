@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import styles from '../../globals.css'; // Or wherever your globals are
+import styles from '../../../globals.css'; // Or wherever your globals are
 
 export default function BlogPage() {
   return (
