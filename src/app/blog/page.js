@@ -1,54 +1,28 @@
 'use client';
 import Link from 'next/link';
+import styles from '../../globals.css'; // Or wherever your globals are
 
 export default function BlogPage() {
   return (
-    <main style={{ minHeight: '100vh', padding: '2rem', fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" }}>
-      
-      {/* Top Right Home Button */}
-      <header style={{ textAlign: 'right', marginBottom: '2rem' }}>
-        <Link href="/">
-          <button className="button">Home</button>
-        </Link>
-      </header>
+    <main>
+      <video
+        src="/media/blog-intro.mp4"
+        autoPlay
+        muted
+        loop
+        style={{ width: '200px', borderRadius: '10px', marginBottom: '2rem' }}
+      />
+      <h1>Welcome, here's what I'm writing about:</h1>
 
-      {/* Center Section */}
-      <section style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-        
-        {/* Blog Intro Video */}
-        <div style={{
-          width: '300px',
-          height: '300px',
-          borderRadius: '50%',
-          overflow: 'hidden',
-          border: '4px solid black',
-          marginBottom: '1.5rem'
-        }}>
-          <video
-            src="/media/blog-intro.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            style={{ objectFit: 'cover', width: '100%', height: '100%' }}
-          />
-        </div>
-
-        {/* Blog Post Link */}
-        <h1 style={{ fontSize: '1.75rem', fontWeight: 'bold', marginBottom: '1rem' }}>
-          Welcome! Here's what I'm writing about:
-        </h1>
-
-        <ul style={{ listStyleType: 'none', padding: 0 }}>
-          <li style={{ marginBottom: '1rem' }}>
-            <Link href="/blog/wildfire" style={{ fontStyle: 'italic', fontSize: '1.2rem', textDecoration: 'underline' }}>
-              Living with Fire: Understanding Risk, Behavior, and the Changing Wildfire Landscape in California
-            </Link>
+      {/* New Box starts here */}
+      <div className="blog-links-box">
+        <ul>
+          <li>
+            <Link href="/blog/wildfire"><em>Living with Fire</em></Link>
           </li>
+          {/* Add more posts here */}
         </ul>
-
-      </section>
-
+      </div>
     </main>
   );
 }

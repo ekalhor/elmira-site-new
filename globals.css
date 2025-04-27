@@ -68,3 +68,14 @@ figcaption {
 .button:hover {
   background-color: #5e8ef6;
 }
+.blog-links-box {
+  width: 100%;
+  max-width: 600px;
+  height: 300px; /* You can adjust the height if you want */
+  overflow-y: auto;
+  background-color: #f9f9f9; /* Light background for the box */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 2rem;
+}
