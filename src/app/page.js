@@ -21,8 +21,8 @@ export default function HomePage() {
         
         {/* Photo */}
         <div style={{ 
-          width: '200px', 
-          height: '200px', 
+          width: '300px', 
+          height: '300px', 
           borderRadius: '50%', 
           overflow: 'hidden', 
           border: '4px solid black', 
