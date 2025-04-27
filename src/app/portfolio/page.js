@@ -17,8 +17,8 @@ export default function PortfolioPage() {
         
         {/* Rotating Wheel Video */}
         <div style={{
-          width: '200px',
-          height: '200px',
+          width: '300px',
+          height: '300px',
           borderRadius: '50%',
           overflow: 'hidden',
           border: '4px solid black',
@@ -35,7 +35,7 @@ export default function PortfolioPage() {
         </div>
 
         {/* Coming Soon Text */}
-        <h1 style={{ fontSize: '1.75rem', fontWeight: 'bold' }}>
+        <h1 style={{ fontSize: '1.75rem' }}>
           Coming soon :)
         </h1>
 
