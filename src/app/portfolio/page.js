@@ -8,7 +8,7 @@ export default function PortfolioPage() {
       {/* Top Right Home Button */}
       <header style={{ textAlign: 'right', marginBottom: '2rem' }}>
         <Link href="/">
-          <button style={{ padding: '0.5rem 1rem' }}>Home</button>
+          <button className="button">Home</button>
         </Link>
       </header>
 

@@ -87,7 +87,7 @@ export default function WildfirePost() {
 
       <div style={{ marginTop: '2rem' }}>
         <Link href="/blog">
-          <button>Back to Blog</button>
+          <button className="button">Back to Blog</button>
         </Link>
       </div>
     </main>
