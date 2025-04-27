@@ -17,8 +17,8 @@ h1, h2, h3 {
 
 p {
   text-align: justify;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
+  /*border-left: 1px solid #ccc;*/
+  /*border-right: 1px solid #ccc;*/
   padding-left: 1rem;
   padding-right: 1rem;
 }
