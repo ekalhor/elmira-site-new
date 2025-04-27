@@ -44,13 +44,13 @@ export default function HomePage() {
         </h1>
 
         {/* Short Description */}
-        <p style={{ fontSize: '1.2rem', color: '#333', maxWidth: '600px', marginBottom: '1.5rem' }}>
+        <p style={{ fontSize: '1.2rem', color: '#333', maxWidth: '800px', marginBottom: '1.5rem' }}>
           I am a quantitative researcher with a passion for machine learning and data science.
           I like to use generative AI to help with data journalism and storytelling.
         </p>
 
         {/* Resume Link */}
-        <p style={{ fontSize: '1rem', color: '#555', fontStyle: 'italic' }}>
+        <p style={{ fontSize: '1.2rem', color: '#555', fontStyle: 'italic' }}>
           Here you can find my <Link href="/media/ElmiraKalhor_R.pdf" target="_blank" style={{ textDecoration: 'underline', fontStyle: 'italic' }}>resume</Link>.
         </p>
 
