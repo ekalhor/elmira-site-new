@@ -45,3 +45,23 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
 }
+
+.button {
+  background-color: #7fa7f7; /* Light blue */
+  color: white;
+  text-transform: uppercase;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 9999px; /* Full rounded */
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none; /* if the button is a link */
+  display: inline-block;
+}
+
+.button:hover {
+  background-color: #5e8ef6; /* Slightly darker on hover */
+}
