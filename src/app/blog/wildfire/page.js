@@ -9,7 +9,7 @@ export default function WildfirePost() {
       <p>
         Some of the most beautiful places in California are also the most dangerous...
       </p>
-      {/* Blog content continues here */}
+      {/* Full blog content continues */}
       <Link href="/blog">
         <button>Back to Blog</button>
       </Link>
