@@ -9,10 +9,10 @@ export default function HomePage() {
       {/* Top Right Navigation Buttons */}
       <header style={{ textAlign: 'right', marginBottom: '2rem' }}>
         <Link href="/portfolio">
-          <button style={{ marginRight: '1rem', padding: '0.5rem 1rem' }}>Portfolio</button>
+          <button className="button">Portfolio</button>
         </Link>
         <Link href="/blog">
-          <button style={{ padding: '0.5rem 1rem' }}>Blog</button>
+          <button className="button">Blog</button>
         </Link>
       </header>
 
