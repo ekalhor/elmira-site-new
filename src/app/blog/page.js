@@ -18,8 +18,8 @@ export default function BlogPage() {
         
         {/* blogger ideo */}
         <div style={{
-          width: '500px',
-          height: '500px',
+          width: '300px',
+          height: '300px',
           borderRadius: '50%',
           overflow: 'hidden',
           border: '4px solid black',
