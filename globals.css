@@ -46,44 +46,33 @@ figcaption {
   margin-right: auto;
 }
 
-.button {
-  background-color: #7fa7f7;
-  color: black;
-  text-transform: uppercase;
-  padding: 0.7rem 1.5rem;
-  border: none;
-  border-radius: 9999px;
-  font-size: 1rem;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  text-decoration: none;
-  display: inline-block;
-
-  /* NEW: Add this line */
-  margin-right: 1rem; /* <-- Adds a gap between buttons */
-}
-
-.button:hover {
-  background-color: #5e8ef6;
-}
 .blog-links-box {
-  width: 100%;
-  max-width: 800px;
-  height: 500px; /* You can adjust the height if you want */
-  overflow-y: auto;
-  background-color: #f9f9f9; /* Light background for the box */
-  border: 1px solid #ccc;
-  border-radius: 10px;
   padding: 1rem;
-  margin-top: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  width: 800px;
+  height: 300px;
+  overflow-y: auto;
+  margin: 2rem auto;
 }
+
 .blog-links-box ul {
-  padding-left: 1.2rem; /* control the indent from the box's left */
-  list-style-position: inside; /* moves bullet *inside* the box */
+  padding-left: 1.2rem; /* smaller left indent */
+  list-style-position: inside; /* bullets inside the box */
+  text-align: left; /* <-- left-align the text */
 }
 
 .blog-links-box li {
-  margin-left: 0.5rem; /* bring text closer to bullet */
+  margin-left: 0.3rem; /* move text closer to bullet */
+  margin-bottom: 0.8rem; /* spacing between links */
+}
+
+.blog-links-box a {
+  text-decoration: none;
+  font-style: italic;
+  color: purple;
+}
+
+.blog-links-box a:hover {
+  text-decoration: underline;
 }
