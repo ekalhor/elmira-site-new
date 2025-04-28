@@ -79,3 +79,11 @@ figcaption {
   padding: 1rem;
   margin-top: 2rem;
 }
+.blog-links-box ul {
+  padding-left: 1.2rem; /* control the indent from the box's left */
+  list-style-position: inside; /* moves bullet *inside* the box */
+}
+
+.blog-links-box li {
+  margin-left: 0.5rem; /* bring text closer to bullet */
+}
